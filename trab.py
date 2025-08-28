@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 def mostrar_menu():
     print("\n=== MENU PRINCIPAL ===")
