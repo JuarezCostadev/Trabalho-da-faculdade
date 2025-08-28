@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 def mostrar_menu():
     print("\n=== MENU PRINCIPAL ===")
@@ -68,18 +69,17 @@ def main():
 
 if __name__ == "__main__":
     CURSOS_DISPONIVEIS = {
-        "Python Básico": "https://www.alura.com.br/curso-online-python-basico",
-        "Inteligência Artificial": "https://www.alura.com.br/curso-online-inteligencia-artificial",
-        "Backend com Django": "https://www.alura.com.br/curso-online-django"
+        "Word Básico": "https://exemplo.com/word-basico",
+        "Inglês Básico": "https://exemplo.com/ingles-basico",
+        "Excel Básico": "https://exemplo.com/excel-basico"
     }
 
     CURSOS_FEITOS = [
-        "Python Básico"
+        "Word Básico"
     ]
 
     CERTIFICADOS = {
-        "Python Básico": "Certificado de Conclusão - Python Básico"
+        "Word Básico": "Certificado de Conclusão - Word Básico"
     }
 
     main()
-
